@@ -29,7 +29,7 @@ body {
 #es-prada.es-prada {
   font-family: $regular;
   font-size: 15px;
-  font-weight: 500;
+  font-weight: 400;
   line-height: 1.2;
   max-width: 1240px;
   margin: 0 auto;
@@ -73,11 +73,6 @@ body {
 
     &__image {
       @include img;
-      margin-bottom: 54px;
-
-      &--logo {
-        max-width: 325px;
-      }
 
       &--mobile {
         padding-top: 30px;
@@ -88,11 +83,22 @@ body {
       }
     }
 
+    &__title {
+      margin-top: 0;
+      font-family: $secondary;
+      font-weight: 400;
+      font-size: 48px;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      text-align: center;
+      color: #000;
+    }
+
     &__description {
       margin-bottom: 50px;
       font-family: $regular;
       font-weight: 400;
-      font-size: 19px;
+      font-size: 16px;
       text-align: center;
       color: #000;
       transition: all 0.2s ease-in-out;
@@ -149,16 +155,19 @@ body {
     }
 
     &__item-title {
-      font-weight: 600;
-      font-size: 25px;
+      font-family: $secondary;
+      font-weight: 500;
+      font-size: 36px;
       letter-spacing: 0.2em;
-      text-transform: uppercase;
       text-align: center;
-      color: $black;
     }
 
     &__item-text {
       text-align: center;
+
+      &--bold {
+        font-weight: 700;
+      }
     }
 
     &__item-link {
@@ -331,6 +340,15 @@ body {
     padding-right: 15px;
 
     &__title {
+      margin-top: 0;
+      font-family: $secondary;
+      font-weight: 400;
+      font-size: 48px;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      text-align: center;
+      color: #000;
+
       &--red {
         font-weight: 600;
         font-size: 30px;
@@ -339,6 +357,19 @@ body {
         text-align: center;
         color: #c1113b;
       }
+    }
+
+    &__description {
+      font-family: $regular;
+      font-size: 16px;
+      font-weight: normal;
+      text-align: center;
+    }
+
+    &__disclaimer {
+      margin-bottom: 60px;
+      font-size: 12px;
+      text-align: center;
     }
 
     &__wrapper {
@@ -564,7 +595,7 @@ body {
 
       &__item-text {
         margin: 0 auto;
-        max-width: 425px;
+        max-width: 440px;
       }
     }
 
@@ -586,7 +617,7 @@ body {
       margin-bottom: 50px;
 
       &:nth-of-type(1) {
-        padding-top: 90px;
+        padding-top: 60px;
       }
 
       &--mobile {
@@ -671,6 +702,25 @@ body {
   @media screen and (min-width: 925px) {
   }
   @media screen and (min-width: 1024px) {
+    .es-banner {
+      &__description {
+        font-size: 19px;
+      }
+
+      &--relative {
+        position: relative;
+      }
+
+      &__description {
+        &--absolute {
+          position: absolute;
+          max-width: 470px;
+          top: 19%;
+          right: 5%;
+          text-align: center;
+        }
+      }
+    }
   }
   @media screen and (min-width: 1200px) {
     .es-cross {
@@ -712,7 +762,7 @@ body {
     .es-category,
     .es-cross,
     .es-video {
-      margin-bottom: 114px;
+      margin-bottom: 30px;
     }
   }
 

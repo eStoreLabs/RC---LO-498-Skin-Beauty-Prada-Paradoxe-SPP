@@ -7,7 +7,7 @@ body {
 #es-prada.es-prada {
   font-family: "Montserrat", sans-serif;
   font-size: 15px;
-  font-weight: 500;
+  font-weight: 400;
   line-height: 1.2;
   max-width: 1240px;
   margin: 0 auto;
@@ -54,10 +54,6 @@ body {
   max-width: 100%;
   display: block;
   margin: 0 auto;
-  margin-bottom: 54px;
-}
-#es-prada.es-prada .es-banner__image--logo {
-  max-width: 325px;
 }
 #es-prada.es-prada .es-banner__image--mobile {
   padding-top: 30px;
@@ -65,11 +61,21 @@ body {
 #es-prada.es-prada .es-banner__image--desktop {
   display: none;
 }
+#es-prada.es-prada .es-banner__title {
+  margin-top: 0;
+  font-family: "Yeseva One", sans-serif;
+  font-weight: 400;
+  font-size: 48px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  text-align: center;
+  color: #000;
+}
 #es-prada.es-prada .es-banner__description {
   margin-bottom: 50px;
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
-  font-size: 19px;
+  font-size: 16px;
   text-align: center;
   color: #000;
   transition: all 0.2s ease-in-out;
@@ -119,15 +125,17 @@ body {
   margin-bottom: 39px;
 }
 #es-prada.es-prada .es-category__item-title {
-  font-weight: 600;
-  font-size: 25px;
+  font-family: "Yeseva One", sans-serif;
+  font-weight: 500;
+  font-size: 36px;
   letter-spacing: 0.2em;
-  text-transform: uppercase;
   text-align: center;
-  color: #000000;
 }
 #es-prada.es-prada .es-category__item-text {
   text-align: center;
+}
+#es-prada.es-prada .es-category__item-text--bold {
+  font-weight: 700;
 }
 #es-prada.es-prada .es-category__item-link {
   display: block;
@@ -310,6 +318,16 @@ body {
   padding-left: 15px;
   padding-right: 15px;
 }
+#es-prada.es-prada .es-video__title {
+  margin-top: 0;
+  font-family: "Yeseva One", sans-serif;
+  font-weight: 400;
+  font-size: 48px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  text-align: center;
+  color: #000;
+}
 #es-prada.es-prada .es-video__title--red {
   font-weight: 600;
   font-size: 30px;
@@ -317,6 +335,17 @@ body {
   text-transform: uppercase;
   text-align: center;
   color: #c1113b;
+}
+#es-prada.es-prada .es-video__description {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  text-align: center;
+}
+#es-prada.es-prada .es-video__disclaimer {
+  margin-bottom: 60px;
+  font-size: 12px;
+  text-align: center;
 }
 #es-prada.es-prada .es-video__wrapper {
   position: relative;
@@ -492,7 +521,7 @@ body {
   }
   #es-prada.es-prada .es-category__item-text {
     margin: 0 auto;
-    max-width: 425px;
+    max-width: 440px;
   }
   #es-prada.es-prada .es-slick-carousel--mobile,
   #es-prada.es-prada .slick-button-prev,
@@ -510,7 +539,7 @@ body {
     margin-bottom: 50px;
   }
   #es-prada.es-prada .es-banner:nth-of-type(1) {
-    padding-top: 90px;
+    padding-top: 60px;
   }
   #es-prada.es-prada .es-banner--mobile {
     display: none;
@@ -574,6 +603,21 @@ body {
     font-size: 44px;
   }
 }
+@media screen and (min-width: 1024px) {
+  #es-prada.es-prada .es-banner__description {
+    font-size: 19px;
+  }
+  #es-prada.es-prada .es-banner--relative {
+    position: relative;
+  }
+  #es-prada.es-prada .es-banner__description--absolute {
+    position: absolute;
+    max-width: 470px;
+    top: 19%;
+    right: 5%;
+    text-align: center;
+  }
+}
 @media screen and (min-width: 1200px) {
   #es-prada.es-prada .es-cross__single {
     max-width: 250px;
@@ -603,7 +647,7 @@ body {
   #es-prada.es-prada .es-category,
   #es-prada.es-prada .es-cross,
   #es-prada.es-prada .es-video {
-    margin-bottom: 114px;
+    margin-bottom: 30px;
   }
 }
 @keyframes slidedown {
