@@ -1,0 +1,627 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#es-prada.es-prada {
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 1.2;
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 0;
+  overflow: hidden;
+  color: #000000;
+  background-color: #ffffff;
+}
+#es-prada.es-prada * {
+  box-sizing: border-box;
+}
+#es-prada.es-prada h2,
+#es-prada.es-prada h3,
+#es-prada.es-prada h4,
+#es-prada.es-prada h5 {
+  font-family: "Montserrat", sans-serif;
+  color: #000000;
+}
+#es-prada.es-prada .es-title {
+  margin: 0;
+  padding: 0;
+  line-height: inherit;
+  color: inherit;
+  font-family: inherit;
+  font-weight: inherit;
+  font-family: "Yeseva One", sans-serif;
+  font-weight: 400;
+  font-size: 36px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #000;
+  text-align: center;
+  margin-bottom: 30px;
+}
+#es-prada.es-prada .es-title span {
+  font-weight: 700;
+}
+#es-prada.es-prada .es-banner {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+#es-prada.es-prada .es-banner__image {
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 54px;
+}
+#es-prada.es-prada .es-banner__image--logo {
+  max-width: 325px;
+}
+#es-prada.es-prada .es-banner__image--mobile {
+  padding-top: 30px;
+}
+#es-prada.es-prada .es-banner__image--desktop {
+  display: none;
+}
+#es-prada.es-prada .es-banner__description {
+  margin-bottom: 50px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 19px;
+  text-align: center;
+  color: #000;
+  transition: all 0.2s ease-in-out;
+}
+#es-prada.es-prada .es-banner__description--red {
+  display: block;
+  margin-bottom: 50px;
+  font-weight: 600;
+  font-size: 25px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  text-align: center;
+  color: #c1113b;
+}
+#es-prada.es-prada .es-banner__description--bold {
+  font-weight: 700;
+}
+#es-prada.es-prada .es-banner__button {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  display: block;
+  background: none;
+  border: none;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+#es-prada.es-prada .es-banner__invisible {
+  display: none;
+}
+#es-prada.es-prada .es-banner__invisible--active {
+  display: inline;
+}
+#es-prada.es-prada .es-category {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+#es-prada.es-prada .es-category__items {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+#es-prada.es-prada .es-category__image {
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 39px;
+}
+#es-prada.es-prada .es-category__item-title {
+  font-weight: 600;
+  font-size: 25px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  text-align: center;
+  color: #000000;
+}
+#es-prada.es-prada .es-category__item-text {
+  text-align: center;
+}
+#es-prada.es-prada .es-category__item-link {
+  display: block;
+  margin: 0 auto;
+  padding: 20px 35px;
+  max-width: 518px;
+  font-family: "Yeseva One", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  text-align: center;
+  color: #fff;
+  background: #000000;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+#es-prada.es-prada .es-cross {
+  padding: 0 16px;
+}
+#es-prada.es-prada .es-cross__container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0 8px;
+  margin: 0 -16px;
+}
+#es-prada.es-prada .es-cross__img {
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
+  max-height: 290px;
+  max-width: 135px;
+}
+#es-prada.es-prada .es-cross__img--3 {
+  margin-right: -50px;
+}
+#es-prada.es-prada .es-cross__single {
+  max-width: 135px;
+  margin-bottom: 25px;
+  padding: 0 8px;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+  align-items: center;
+}
+#es-prada.es-prada .es-cross__single:hover .es-cross__icon {
+  transform: scale(1.2);
+}
+#es-prada.es-prada .es-cross__wrapper {
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+  align-items: center;
+  flex-grow: 1;
+}
+#es-prada.es-prada .es-cross__subtitle {
+  margin: 0;
+  padding: 0;
+  line-height: inherit;
+  color: inherit;
+  font-family: inherit;
+  font-weight: inherit;
+  font-family: "Montserrat";
+  font-size: 16px;
+  text-align: center;
+  margin-bottom: 16px;
+}
+#es-prada.es-prada .es-cross__subtitle strong {
+  display: block;
+  text-transform: uppercase;
+}
+#es-prada.es-prada .es-cross__text {
+  margin: 0;
+  padding: 0;
+  line-height: inherit;
+  color: inherit;
+  font-family: inherit;
+  font-weight: inherit;
+  font-family: "Montserrat";
+  color: #000000;
+  font-size: 15px;
+  text-align: center;
+  margin-bottom: 16px;
+}
+#es-prada.es-prada .es-cross__item-title {
+  margin: 0;
+  padding: 0;
+  line-height: inherit;
+  color: inherit;
+  font-family: inherit;
+  font-weight: inherit;
+  min-height: 95px;
+  margin-bottom: 30px;
+  font-weight: 500;
+  font-size: 16px;
+  text-align: center;
+  color: #000000;
+}
+#es-prada.es-prada .es-cross__item-subtitle {
+  display: block;
+  margin-top: 10px;
+  font-size: 16px;
+}
+#es-prada.es-prada .es-cross__link {
+  margin: 0;
+  padding: 0;
+  line-height: inherit;
+  color: inherit;
+  font-family: inherit;
+  font-weight: inherit;
+  font-family: "Yeseva One", sans-serif;
+  color: #ffffff;
+  min-width: 135px;
+  background: #000000;
+  font-size: 14px;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 16px 24px;
+  margin-bottom: 16px;
+  border: 1px solid #000000;
+  transition: all 0.3s ease;
+  text-align: center;
+}
+#es-prada.es-prada .es-cross__link:hover {
+  color: #000000;
+  background: #ffffff;
+}
+#es-prada.es-prada .es-cross__packshot {
+  position: relative;
+  z-index: 1;
+}
+#es-prada.es-prada .es-cross__packshot--1 {
+  max-width: 189px;
+}
+#es-prada.es-prada .es-cross__packshot--1::before {
+  position: absolute;
+  content: "1";
+  font-family: "Roboto";
+  color: #ebebeb;
+  font-size: 160px;
+  top: -15px;
+  left: -60px;
+  line-height: 1;
+  z-index: -1;
+}
+#es-prada.es-prada .es-cross__packshot--2 {
+  max-width: 175px;
+}
+#es-prada.es-prada .es-cross__packshot--2::before {
+  position: absolute;
+  content: "2";
+  font-family: "Roboto";
+  color: #ebebeb;
+  font-size: 160px;
+  top: -68px;
+  left: -60px;
+  line-height: 1;
+  z-index: -1;
+}
+#es-prada.es-prada .es-cross__packshot--3::before {
+  position: absolute;
+  content: "3";
+  font-family: "Roboto";
+  color: #ebebeb;
+  font-size: 160px;
+  top: -50px;
+  left: -60px;
+  line-height: 1;
+  z-index: -1;
+}
+#es-prada.es-prada .es-cross__packshot-icon {
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+#es-prada.es-prada .es-video {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+#es-prada.es-prada .es-video__title--red {
+  font-weight: 600;
+  font-size: 30px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  text-align: center;
+  color: #c1113b;
+}
+#es-prada.es-prada .es-video__wrapper {
+  position: relative;
+  margin-bottom: 50px;
+}
+#es-prada.es-prada .es-video__player {
+  display: block;
+  margin: 0 auto;
+  width: 95%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  min-height: 225px;
+}
+#es-prada.es-prada .es-video__play-button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+}
+#es-prada.es-prada .es-video__image-icon {
+  width: 53px;
+  height: 53px;
+}
+#es-prada.es-prada .es-video__image-icon--desktop {
+  width: 116px;
+  height: 116px;
+}
+#es-prada.es-prada .es-video__additional-description {
+  min-width: 320px;
+  margin-bottom: 32px;
+}
+#es-prada.es-prada .es-video__additional-description strong {
+  text-transform: none;
+}
+#es-prada.es-prada .es-video__player--desktop {
+  display: none;
+}
+#es-prada.es-prada .es-video__play-button--desktop {
+  display: none;
+}
+#es-prada.es-prada .slick-button-prev {
+  position: absolute;
+  top: 35%;
+  left: 15px;
+  rotate: 180deg;
+  cursor: pointer;
+}
+#es-prada.es-prada .slick-button-next {
+  position: absolute;
+  top: 35%;
+  right: 15px;
+  cursor: pointer;
+}
+#es-prada.es-prada .slick-button-2-prev {
+  position: absolute;
+  bottom: 0;
+  left: 15px;
+  rotate: 180deg;
+  cursor: pointer;
+}
+#es-prada.es-prada .slick-button-2-next {
+  position: absolute;
+  bottom: 0;
+  right: 15px;
+  cursor: pointer;
+}
+#es-prada.es-prada .slick-pagination-2 {
+  position: absolute;
+  bottom: 15px;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+}
+#es-prada.es-prada .slick-dots {
+  position: absolute;
+  display: flex;
+  gap: 0 4px;
+  padding: 0;
+  margin: 0;
+  bottom: 3%;
+  left: 45%;
+}
+#es-prada.es-prada .slick-dots li {
+  width: 12px;
+  height: 12px;
+  display: inline-block;
+  border-radius: 50%;
+  background: #b8a8a6;
+  opacity: 1;
+}
+#es-prada.es-prada .slick-dots li:not(:last-child) {
+  margin-right: 6px;
+}
+#es-prada.es-prada .slick-dots li.slick-active {
+  background: #000000;
+}
+#es-prada.es-prada .slick-dots li button {
+  display: none;
+}
+#es-prada.es-prada .slick-slide {
+  opacity: 0.7;
+}
+#es-prada.es-prada .slick-current {
+  opacity: 1;
+}
+#es-prada.es-prada .slick-list {
+  overflow: visible;
+}
+#es-prada.es-prada .slick-arrow.slick-disabled {
+  display: none !important;
+}
+@media screen and (min-width: 400px) {
+  #es-prada.es-prada .es-cross__container {
+    margin: 0 auto;
+    max-width: 320px;
+  }
+}
+@media screen and (min-width: 560px) {
+  #es-prada.es-prada .es-cross__container {
+    max-width: 628px;
+    margin: 0 auto;
+    gap: 10px;
+    flex-flow: row;
+    flex-wrap: wrap;
+    align-items: flex-end;
+  }
+  #es-prada.es-prada .es-cross__img {
+    max-height: 290px;
+    max-width: 220px;
+  }
+  #es-prada.es-prada .es-cross__single {
+    max-width: 275px;
+  }
+  #es-prada.es-prada .es-cross__link {
+    font-family: "Yeseva One", sans-serif;
+    color: #ffffff;
+    min-width: 195px;
+    background: #000000;
+    font-size: 16px;
+  }
+  #es-prada.es-prada .es-cross__item-title {
+    font-size: 20px;
+  }
+  #es-prada.es-prada .es-video__player--mobile {
+    display: none;
+  }
+  #es-prada.es-prada .es-video__player--desktop {
+    display: block;
+    min-height: 507px;
+  }
+  #es-prada.es-prada .es-video__play-button--mobile {
+    display: none;
+  }
+  #es-prada.es-prada .es-video__play-button--desktop {
+    display: block;
+  }
+}
+@media screen and (min-width: 600px) {
+  #es-prada.es-prada .es-banner__button {
+    display: none;
+  }
+  #es-prada.es-prada .es-banner__invisible {
+    display: inline;
+  }
+  #es-prada.es-prada .es-category__items {
+    flex-direction: row;
+    gap: 10px;
+  }
+  #es-prada.es-prada .es-category__item {
+    min-width: 50%;
+    max-width: 50%;
+  }
+  #es-prada.es-prada .es-category__item-text {
+    margin: 0 auto;
+    max-width: 425px;
+  }
+  #es-prada.es-prada .es-slick-carousel--mobile,
+  #es-prada.es-prada .slick-button-prev,
+  #es-prada.es-prada .slick-button-next {
+    display: none;
+  }
+  #es-prada.es-prada .slick-pagination-2,
+  #es-prada.es-prada .slick-button-2-prev,
+  #es-prada.es-prada .slick-button-2-next {
+    display: none;
+  }
+}
+@media screen and (min-width: 768px) {
+  #es-prada.es-prada .es-banner {
+    margin-bottom: 50px;
+  }
+  #es-prada.es-prada .es-banner:nth-of-type(1) {
+    padding-top: 90px;
+  }
+  #es-prada.es-prada .es-banner--mobile {
+    display: none;
+  }
+  #es-prada.es-prada .es-banner__image--desktop {
+    display: block;
+  }
+  #es-prada.es-prada .slick-dots {
+    left: 50%;
+  }
+  #es-prada.es-prada .es-title {
+    margin-bottom: 50px;
+    font-size: 30px;
+    text-align: center;
+  }
+}
+@media screen and (min-width: 860px) {
+  #es-prada.es-prada .es-cross__container {
+    justify-content: space-around;
+    max-width: none;
+  }
+  #es-prada.es-prada .es-cross__single {
+    max-width: 140px;
+  }
+  #es-prada.es-prada .es-cross__title {
+    margin-bottom: 100px;
+  }
+  #es-prada.es-prada .es-cross__text {
+    min-height: 75px;
+  }
+  #es-prada.es-prada .es-cross__img {
+    max-width: 250px;
+    max-height: 366px;
+  }
+  #es-prada.es-prada .es-cross__img--2 {
+    max-width: 274px;
+  }
+  #es-prada.es-prada .es-cross__img--3 {
+    max-width: 236px;
+    margin-right: 0;
+  }
+  #es-prada.es-prada .es-cross__packshot {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    min-height: 300px;
+  }
+  #es-prada.es-prada .es-cross__packshot--2 {
+    max-width: 250px;
+  }
+  #es-prada.es-prada .es-cross__packshot--2::before {
+    left: 33%;
+    top: -20px;
+  }
+  #es-prada.es-prada .es-cross__packshot--3::before {
+    left: 25%;
+    top: -20px;
+  }
+  #es-prada.es-prada .es-title {
+    font-size: 44px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  #es-prada.es-prada .es-cross__single {
+    max-width: 250px;
+    justify-content: space-between;
+  }
+  #es-prada.es-prada .es-cross__link {
+    min-width: 248px;
+  }
+  #es-prada.es-prada .es-cross__text {
+    max-width: 245px;
+  }
+  #es-prada.es-prada .es-cross__packshot--1::before {
+    top: -45px;
+    left: -47px;
+    font-size: 200px;
+  }
+  #es-prada.es-prada .es-cross__packshot--2::before {
+    top: -50px;
+    font-size: 200px;
+  }
+  #es-prada.es-prada .es-cross__packshot--3::before {
+    top: -50px;
+    font-size: 200px;
+  }
+}
+@media screen and (min-width: 1300px) {
+  #es-prada.es-prada .es-category,
+  #es-prada.es-prada .es-cross,
+  #es-prada.es-prada .es-video {
+    margin-bottom: 114px;
+  }
+}
+@keyframes slidedown {
+  from {
+    opacity: 0;
+    transform: translateY(-32px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+@keyframes slideright {
+  from {
+    opacity: 0.3;
+    transform: translateX(-100px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}/*# sourceMappingURL=style.css.map */
