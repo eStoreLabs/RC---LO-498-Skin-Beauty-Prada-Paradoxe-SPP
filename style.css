@@ -65,7 +65,7 @@ body {
   margin-top: 0;
   font-family: "Yeseva One", sans-serif;
   font-weight: 400;
-  font-size: 48px;
+  font-size: 43px;
   letter-spacing: 0.1em;
   text-transform: uppercase;
   text-align: center;
@@ -75,7 +75,7 @@ body {
   margin-bottom: 50px;
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 15px;
   text-align: center;
   color: #000;
   transition: all 0.2s ease-in-out;
@@ -127,12 +127,14 @@ body {
 #es-prada.es-prada .es-category__item-title {
   font-family: "Yeseva One", sans-serif;
   font-weight: 500;
-  font-size: 36px;
+  font-size: 43px;
   letter-spacing: 0.2em;
   text-align: center;
 }
 #es-prada.es-prada .es-category__item-text {
   text-align: center;
+  padding-left: 5px;
+  padding-right: 5px;
 }
 #es-prada.es-prada .es-category__item-text--bold {
   font-weight: 700;
@@ -322,7 +324,7 @@ body {
   margin-top: 0;
   font-family: "Yeseva One", sans-serif;
   font-weight: 400;
-  font-size: 48px;
+  font-size: 43px;
   letter-spacing: 0.1em;
   text-transform: uppercase;
   text-align: center;
@@ -338,7 +340,7 @@ body {
 }
 #es-prada.es-prada .es-video__description {
   font-family: "Montserrat", sans-serif;
-  font-size: 16px;
+  font-size: 15px;
   font-weight: normal;
   text-align: center;
 }
@@ -604,8 +606,12 @@ body {
   }
 }
 @media screen and (min-width: 1024px) {
+  #es-prada.es-prada .es-category__item-text {
+    font-size: 17px;
+    max-width: 498px;
+  }
   #es-prada.es-prada .es-banner__description {
-    font-size: 19px;
+    font-size: 17px;
   }
   #es-prada.es-prada .es-banner--relative {
     position: relative;
@@ -616,6 +622,9 @@ body {
     top: 19%;
     right: 5%;
     text-align: center;
+  }
+  #es-prada.es-prada .es-video__description {
+    font-size: 17px;
   }
 }
 @media screen and (min-width: 1200px) {

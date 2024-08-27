@@ -87,7 +87,7 @@ body {
       margin-top: 0;
       font-family: $secondary;
       font-weight: 400;
-      font-size: 48px;
+      font-size: 43px;
       letter-spacing: 0.1em;
       text-transform: uppercase;
       text-align: center;
@@ -98,7 +98,7 @@ body {
       margin-bottom: 50px;
       font-family: $regular;
       font-weight: 400;
-      font-size: 16px;
+      font-size: 15px;
       text-align: center;
       color: #000;
       transition: all 0.2s ease-in-out;
@@ -157,13 +157,15 @@ body {
     &__item-title {
       font-family: $secondary;
       font-weight: 500;
-      font-size: 36px;
+      font-size: 43px;
       letter-spacing: 0.2em;
       text-align: center;
     }
 
     &__item-text {
       text-align: center;
+      padding-left: 5px;
+      padding-right: 5px;
 
       &--bold {
         font-weight: 700;
@@ -343,7 +345,7 @@ body {
       margin-top: 0;
       font-family: $secondary;
       font-weight: 400;
-      font-size: 48px;
+      font-size: 43px;
       letter-spacing: 0.1em;
       text-transform: uppercase;
       text-align: center;
@@ -361,7 +363,7 @@ body {
 
     &__description {
       font-family: $regular;
-      font-size: 16px;
+      font-size: 15px;
       font-weight: normal;
       text-align: center;
     }
@@ -702,9 +704,16 @@ body {
   @media screen and (min-width: 925px) {
   }
   @media screen and (min-width: 1024px) {
+    .es-category {
+      &__item-text {
+        font-size: 17px;
+        max-width: 498px;
+      }
+    }
+
     .es-banner {
       &__description {
-        font-size: 19px;
+        font-size: 17px;
       }
 
       &--relative {
@@ -719,6 +728,11 @@ body {
           right: 5%;
           text-align: center;
         }
+      }
+    }
+    .es-video {
+      &__description {
+        font-size: 17px;
       }
     }
   }
